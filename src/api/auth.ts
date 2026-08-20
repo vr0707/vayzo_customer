@@ -147,7 +147,7 @@ export async function registerAccount(
 
   return {
     success: true,
-    message: "Account created successfully",
+    message: "Account created successfully ",
     data: {
       userId: "USR1001",
       name: payload.name,
